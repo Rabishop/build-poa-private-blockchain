@@ -287,7 +287,7 @@ Don't forget to test.
 admin.peers
 ```
 
-## 6. SSLization
+## 6. SSL
 
 > Metamask can add networks under the http protocol
 >
