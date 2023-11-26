@@ -13,7 +13,7 @@ The nodes are created on a Google virtual instance using Geth and the consensus 
 
 The structure is shown below
 
-![image-20231126213729886](D:\Desktop\image-20231126213729886.png)
+![image-20231126213729886](Images\image-20231126213729886.png)
 
 
 
@@ -400,17 +400,17 @@ systemctl start nginx
 
 #### 7.1.MetaMask
 
-![image-20231126235421299](D:\Desktop\image-20231126235421299.png)
+![image-20231126235421299](Images\image-20231126235421299.png)
 
 #### 7.2.Remix
 
-![image-20231126235458645](D:\Desktop\image-20231126235458645.png)
+![image-20231126235458645](Images\image-20231126235458645.png)
 
 Although it is possible to connect to node4 through the External Http Provider environment described above, it is only possible to deploy smart contracts using an account on node4, which means that transactions require the administrator to authorize each transaction in the Clef tool, making it very inconvenient. It is recommended to use Injected Provider - Metamask to connect and deploy smart contracts using your own account.
 
 #### 7.3.Ethernal
 
-![image-20231126235918136](D:\Desktop\image-20231126235918136.png)
+![image-20231126235918136](Images\image-20231126235918136.png)
 
 When creating a new account and configuring it as above, it will only synchronize from the newest node and will lose synchronization when closing the browser. To avoid this, you need to create a node in a client to access the blockchain and run the Ethernal client at the same time to synchronize.
 
