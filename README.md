@@ -189,7 +189,7 @@ eth.sendTransaction({  to: '0x1Fa1520A45d5A28f2487D15915f8FF27FA538545',  from: 
 
 Create a file called rules.js
 
-```json
+```
 function OnSignerStartup(info) {}
 
 function ApproveListing() { 
